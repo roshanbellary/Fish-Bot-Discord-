@@ -7,8 +7,8 @@
 
 1. Clone repo
 2. Run `npm install`
-3. Run npm install discord.js
-4. Run npm install node-fetch
+3. Run `npm install discord.js`
+4. Run `npm install node-fetch`
 5. Run `node index.js`
 6. Interact with your Discord bot via your web browser
 
