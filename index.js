@@ -37,14 +37,14 @@ bot.on('message', msg=>{
   }
 });
 function weather_command(message, arguments){
-  fetch('http://api.openweathermap.org/data/2.5/weather?zip=95070,us&APPID=5adf530da766051e090168cd4859746c').then(response =>{
+  fetch('http://api.openweathermap.org/data/2.5/weather?zip=95070,us&APPID=######################').then(response =>{// ADD the API id you have created where the hashtags are
     return response.json()
   }).then(parsedWeather=>{
     message.channel.send(":cloud_lightning:"+"(Weather):"+parsedWeather.weather[0].description+"\n:thermometer:(Temperature):"+Math.floor(1.8*(parsedWeather.main.temp-273.15)+32)+" degrees Celsius"+"\nLocation:"+parsedWeather.name);
   })
 }
 function trigger(message, arguments){
-  fetch('http://newsapi.org/v2/top-headlines?sources=fox-news&apiKey=ddba947408ca4a60b12b0350baf3e119').then(response =>{
+  fetch('http://newsapi.org/v2/top-headlines?sources=fox-news&apiKey=###################').then(response =>{//ADD the API id you created where the hashtags are
     return response.json()
   }).then(news =>{
     var length = news.articles.length
