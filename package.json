@@ -12,6 +12,6 @@
     "discord.js": "^11.6.4",
     "dotenv": "^8.2.0",
     "newsapi": "^2.4.1",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
